@@ -1,2 +1,2 @@
 #!/bin/bash
-grep uniq -i -D |  /etc/ssh/sshd_config
+cat /etc/ssh/sshd_config | uniq -i
